@@ -7,11 +7,11 @@ LABEL author="Bill" maintainer="contact@mail.bill-zhanxg.com"
 
 RUN adduser -D -h /home/container container
 
-RUN     apk add --no-cache curl iproute2 ca-certificates fontconfig git openssl sqlite tar tzdata
+RUN apk add --no-cache curl iproute2 ca-certificates fontconfig git openssl sqlite tar tzdata
 USER container
-ENV HOME /home/container
+ENV HOME=/home/container
 WORKDIR /home/container
 
 
 COPY --chmod=755 --chown=root:root ../entrypoint.sh /entrypoint.sh
-ENTRYPOINT         ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]

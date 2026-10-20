@@ -5,7 +5,7 @@
         "update_url": null
     },
     "exported_at": "2026-10-20T12:40:12+00:00",
-    "name": "Postgres (13-18)",
+    "name": "Postgres",
     "author": "contact@mail.bill-zhanxg.com",
     "description": "Postgres with multi-version support (13-18) and safe upgrade handling.",
     "features": [],

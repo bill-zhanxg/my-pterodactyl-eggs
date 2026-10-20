@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2026-03-03T12:40:12+00:00",
+    "exported_at": "2026-10-20T12:40:12+00:00",
     "name": "Postgres (13-18)",
     "author": "contact@mail.bill-zhanxg.com",
     "description": "Postgres with multi-version support (13-18) and safe upgrade handling.",
@@ -39,7 +39,7 @@
             "env_variable": "PGUSER",
             "default_value": "pterodactyl",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
         },
@@ -47,9 +47,9 @@
             "name": "Superuser Password",
             "description": "The postgres super user password with a strong default.\nYou should be generating new ones for each server.\nIf you don't then users can hit other users DB's",
             "env_variable": "PGPASSWORD",
-            "default_value": "Pl3453Ch4n63M3!",
+            "default_value": "oJ0=An.Z*3Mc?r|7y3Fd:R4uWM~pJ66`",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
         },
